@@ -88,6 +88,15 @@ PUT /users/:id
 DELETE /users/:id
 ```
 
-
+# Create db.json
+```
+{
+    "user": "nodetutsuser",
+    "host": "localhost",
+    "database": "nodetutsdb",
+    "password": "nodetuts@123",
+    "port": 5432
+}
+```
 
 
