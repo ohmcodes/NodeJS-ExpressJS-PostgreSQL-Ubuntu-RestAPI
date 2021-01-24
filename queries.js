@@ -1,10 +1,13 @@
+const db = require('./db.json')
+
+
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: 'nodetutsuser',
-  host: 'localhost',
-  database: 'nodetutsdb',
-  password: 'nodetuts@123',
-  port: 5432,
+  user: db.user,
+  host: db.host,
+  database: db.database,
+  password: db.password,
+  port: db.port,
 })
 
 
