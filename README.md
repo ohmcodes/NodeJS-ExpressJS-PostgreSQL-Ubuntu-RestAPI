@@ -11,7 +11,7 @@ Rest API using NodeJS ExpressJS PostgreSQL Ubuntu
 # Update and Upgrade
 ```
 sudo apt update
-sudp apt upgrade
+sudo apt upgrade
 ```
 
 # Creating Virtual Environment
